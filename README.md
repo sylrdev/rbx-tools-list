@@ -28,8 +28,8 @@
 
 ## Runtime type checking
 - T: https://github.com/osyrisrblx/t -> Reliable, good symbiosis with some other libs (Lapis & Lyra)
-- GreenTea: https://corecii.github.io/GreenTea/ -> Modern alternative to T + has T migration built-in
-- Boba: https://github.com/welcomestohell/boba -> Said to be the best overall, type checkers can be converted to actual types
+- GreenTea: https://corecii.github.io/GreenTea/ -> Modern alternative to T + has T migration built-in, strict Luau compatible
+- Boba: https://github.com/welcomestohell/boba -> Said to be the best overall but also unmaintained since the author moved to GreenTea, type checkers can be converted to actual types
 
 ## Garbage collector
 - Trove: https://sleitnick.github.io/RbxUtil/api/Trove/ -> Same author as Signal, reliable
