@@ -13,7 +13,7 @@
 ## Dev Tools
 - Conch: https://alicesaidhi.github.io/conch/ -> Industry standard command console, deep role + permission based configuration (like Discord)
 - Lori: https://github.com/KYRORBLX/Lori -> Quick silent debugging tool, think of it like a simpler micro profiler
-- Konsole: https://github.com/KYRORBLX/Konsole -> Command console, same author as Lori, good alternative to Conch if you less customizable permissions are not an issue
+- Konsole: https://github.com/KYRORBLX/Konsole -> Command console, same author as Lori, good alternative to Conch if you don't mind less customizable permissions are not an issue
 - Iris: https://sirmallard.github.io/Iris/ -> Immediate GUI library, meant to be used a debugging tool to test systems before building proper UI
 
 ## Networking
