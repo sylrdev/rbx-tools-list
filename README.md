@@ -66,14 +66,19 @@
 - Lest: https://lest-luau.github.io/lest/ -> Runtime testing suite
 - Tungsten: https://pwnwrkz.github.io/tungsten/ -> Asset manager, batch upload assets to Roblox instead of doing it manually through the online laggy interface
 
-# Realms Legacy Stack
+## Realms Legacy Stack
+
+### Libraries
 - ProfileStore
 - Vide
+- UI Labs
 - Conch
 - TypedRemote
-- Boba
+- GreenTea
 - Trove
 - Charm + CharmSync
+
+### CLI Tools
 - Rokit
 - Rojo
 - Wally + Wally Package Types
