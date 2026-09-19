@@ -2,6 +2,7 @@
 - ProfileStore: https://madstudioroblox.github.io/ProfileStore/ -> Industry standard, ability to make non player oriented data stores + fragment player data in multiple stores
 - Lapis: https://nezuo.github.io/lapis/ -> Built-in migration, compatibility with T, promise based API
 - Lyra: https://paradoxum-games.github.io/lyra/ -> Similar to Lapis, built-in transactions for trading
+- Scribe: https://scribe.ericplane.dev/ -> Overall best in the industry, fast, good and easy API, lots of features and based on a ProfileStore fork.
 
 ## UI
 - Vide: https://centau.github.io/vide/ -> New industry standard, recommended over ReactLuau or Fusion in new projects, easy and fast to use
@@ -18,8 +19,8 @@
 
 ## Networking
 - TypedRemote: https://sleitnick.github.io/RbxUtil/api/TypedRemote/ -> Declarative typed remote events and functions
-- Zap: https://zap.redblox.dev/ -> CLI based declarative remote management, uses its own config file, fast (I personally don't like having a cli tool JUST to generate remotes)
-- Blink: https://1axen.github.io/blink/ -> CLI based declarative remote management, uses its own config file, faster? (same thing, don't like it), has a VSCode extension
+- Zap: https://zap.redblox.dev/ -> CLI based declarative remote management, uses its own config file, fast
+- Blink: https://1axen.github.io/blink/ -> CLI based declarative remote management, uses its own config file, faster than zap?, has a VSCode extension
 
 ## Signal
 - Signal: https://sleitnick.github.io/RbxUtil/api/Signal/ -> Reliable
@@ -62,24 +63,23 @@
 - Wally: https://wally.run/install -> First Roblox package manager, developed by the Team behind Adopt Me
 - Wally package types: https://github.com/JohnnyMorganz/wally-package-types -> Imports public types to Wally imported packages cause Wally doesn't do it
 - Pesde: https://docs.pesde.dev/ -> Becoming the new industry standard package manager, support the Wally index so any Wally package can be installed through Pesde
-- LPM: https://luaupm.com/ -> Newest package + tool manager, will most likely overshadow Wally, Pesde and Rokit as its all in one and supports both the Wally and Pesde index
+- LPM/Embr: https://luaupm.com/ -> Newest package + tool manager, supports both the Wally and Pesde package index, basically Rokit + Wally/Pesde in a single tool 
 - Lest: https://lest-luau.github.io/lest/ -> Runtime testing suite
 - Tungsten: https://pwnwrkz.github.io/tungsten/ -> Asset manager, batch upload assets to Roblox instead of doing it manually through the online laggy interface
 
 ## Realms Legacy Stack
 
 ### Libraries
-- ProfileStore
+- Scribe
 - Vide
 - UI Labs
 - Conch
-- TypedRemote
+- Blink
+- Signal
 - GreenTea
 - Trove
-- Charm + CharmSync
 
 ### CLI Tools
-- Rokit
+- Embr
 - Rojo
-- Wally + Wally Package Types
 - Tungsten
